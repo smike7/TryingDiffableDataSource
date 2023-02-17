@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		3A51C6D9299FAC270019D9B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51C6D8299FAC270019D9B8 /* AppDelegate.swift */; };
 		3A51C6DB299FAC270019D9B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51C6DA299FAC270019D9B8 /* SceneDelegate.swift */; };
-		3A51C6DD299FAC270019D9B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51C6DC299FAC270019D9B8 /* ViewController.swift */; };
+		3A51C6DD299FAC270019D9B8 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51C6DC299FAC270019D9B8 /* HomeScreen.swift */; };
 		3A51C6E0299FAC270019D9B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A51C6DE299FAC270019D9B8 /* Main.storyboard */; };
 		3A51C6E2299FAC280019D9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A51C6E1299FAC280019D9B8 /* Assets.xcassets */; };
 		3A51C6E5299FAC280019D9B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A51C6E3299FAC280019D9B8 /* LaunchScreen.storyboard */; };
+		3A51C6F0299FADB20019D9B8 /* HomeImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51C6EF299FADB20019D9B8 /* HomeImagesCell.swift */; };
+		3A51C6F2299FADD60019D9B8 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51C6F1299FADD60019D9B8 /* ConfigurableCell.swift */; };
+		3A51C6F4299FB13A0019D9B8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51C6F3299FB13A0019D9B8 /* Image.swift */; };
+		3A51C6F7299FF30D0019D9B8 /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51C6F6299FF30D0019D9B8 /* Ext+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A51C6D5299FAC270019D9B8 /* tryingDiffableSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryingDiffableSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A51C6D8299FAC270019D9B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A51C6DA299FAC270019D9B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A51C6DC299FAC270019D9B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A51C6DC299FAC270019D9B8 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		3A51C6DF299FAC270019D9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A51C6E1299FAC280019D9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A51C6E4299FAC280019D9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A51C6E6299FAC280019D9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A51C6EF299FADB20019D9B8 /* HomeImagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImagesCell.swift; sourceTree = "<group>"; };
+		3A51C6F1299FADD60019D9B8 /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		3A51C6F3299FB13A0019D9B8 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		3A51C6F6299FF30D0019D9B8 /* Ext+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,51 @@
 		3A51C6D7299FAC270019D9B8 /* tryingDiffableSource */ = {
 			isa = PBXGroup;
 			children = (
+				3A51C6F5299FF2EF0019D9B8 /* Extensions */,
+				3A51C6EE299FAC470019D9B8 /* Views */,
+				3A51C6ED299FAC340019D9B8 /* ViewModel */,
+				3A51C6EC299FAC2F0019D9B8 /* Model */,
 				3A51C6D8299FAC270019D9B8 /* AppDelegate.swift */,
 				3A51C6DA299FAC270019D9B8 /* SceneDelegate.swift */,
-				3A51C6DC299FAC270019D9B8 /* ViewController.swift */,
 				3A51C6DE299FAC270019D9B8 /* Main.storyboard */,
 				3A51C6E1299FAC280019D9B8 /* Assets.xcassets */,
 				3A51C6E3299FAC280019D9B8 /* LaunchScreen.storyboard */,
 				3A51C6E6299FAC280019D9B8 /* Info.plist */,
 			);
 			path = tryingDiffableSource;
+			sourceTree = "<group>";
+		};
+		3A51C6EC299FAC2F0019D9B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A51C6F3299FB13A0019D9B8 /* Image.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A51C6ED299FAC340019D9B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A51C6EE299FAC470019D9B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A51C6DC299FAC270019D9B8 /* HomeScreen.swift */,
+				3A51C6EF299FADB20019D9B8 /* HomeImagesCell.swift */,
+				3A51C6F1299FADD60019D9B8 /* ConfigurableCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A51C6F5299FF2EF0019D9B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A51C6F6299FF30D0019D9B8 /* Ext+UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A51C6DD299FAC270019D9B8 /* ViewController.swift in Sources */,
+				3A51C6F2299FADD60019D9B8 /* ConfigurableCell.swift in Sources */,
+				3A51C6F4299FB13A0019D9B8 /* Image.swift in Sources */,
+				3A51C6DD299FAC270019D9B8 /* HomeScreen.swift in Sources */,
 				3A51C6D9299FAC270019D9B8 /* AppDelegate.swift in Sources */,
+				3A51C6F7299FF30D0019D9B8 /* Ext+UIViewController.swift in Sources */,
+				3A51C6F0299FADB20019D9B8 /* HomeImagesCell.swift in Sources */,
 				3A51C6DB299FAC270019D9B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
